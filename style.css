@@ -19,23 +19,28 @@ body {
     background-size: cover;
     background-position: center;
   }
-  
+
   .img-description {
-    margin-top: auto;
-    margin-bottom: 10px;
-    font-size: 100%;
+    background-position: center center;
+    background-image: ("/home/emna/repos/javascript-path/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: white;
-    font-weight: 900;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-      1px 1px 0 #000;
-    background-color: rgba(0, 0, 0, 0.472);
-    padding: 5px;
-    height: 2rem;
     text-align: center;
+
 }
 a{
     color: #dfdedf;
     font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 0.9rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
