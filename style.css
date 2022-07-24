@@ -9,12 +9,12 @@ body {
   }
   @font-face {
     font-family: "Norse Bold";
-    src: url("/home/emna/repos/javascript-path/sign-up-form/images/Norse-Bold.otf");
+    src: url("images/Norse-Bold.otf");
   }
 
   .img {
     width: 45%;
-    background-image: url(/home/emna/repos/javascript-path/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@ body {
 
   .img-description {
     background-position: center center;
-    background-image: ("/home/emna/repos/javascript-path/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg");
+  
     background-size: cover;
     flex: 3;
     display: flex;
@@ -32,7 +32,7 @@ body {
     text-align: center;
 
 }
-a{
+.a{
     color: #dfdedf;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: 0.9rem;
